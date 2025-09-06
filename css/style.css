@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* estilização do corpo da página */
+body {
+  background: linear-gradient(#9d9c9c, #8b8a8a);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* estilização do título */
+.container h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* estilização mapa */
+iframe {
+  width: 70%;
+  height: 500px;
+  border: 0;
+  cursor: pointer;
+}
